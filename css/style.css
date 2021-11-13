@@ -1,0 +1,11 @@
+img {
+    width: 500px;
+    height: 350px;
+}
+
+.card_container {
+    display: grid;
+    place-items: center;
+    border-radius: 15px 15px 15px 15px;
+
+}

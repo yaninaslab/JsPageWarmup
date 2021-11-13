@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <a href="#" class="title">This is a link</a>
+    <h1 class="title">This is H1 heading</h1>
+    <h2 id="h2_title">This is H2 heading</h2>
+    <h3 id="h3_title">This is H3 title</h3>
+    <p id="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et numquam recusandae illum veniam
+        dolorum quod minima
+        modi distinctio, consectetur reprehenderit dolorem? Tenetur ipsam consequatur eaque architecto numquam molestiae
+        doloribus veniam?</p>
+<br>
+<br>
+<br>
+<br>
+    <section id="card_section">
+        <article onclick="remove_cards(this)" id="card_one" class="card_container" onclick="double_click('Card double clicked')">
+            <img
+                src="https://images.unsplash.com/photo-1595854341625-f33ee10dbf94?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2670&q=80">
+            <h1>Margarita Pizza</h1>
+        </article>
+        <button onclick="add_cards()">Load more cards</button>
+
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.1/dist/js.cookie.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
